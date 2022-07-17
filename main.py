@@ -12,6 +12,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 
+
 #####Initialize Flask########
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
@@ -35,6 +36,8 @@ gravatar = Gravatar(app,
                     force_lower=False,
                     use_ssl=False,
                     base_url=None)
+
+print("Goodbye")
 
 
 #######Setting up flask login############
