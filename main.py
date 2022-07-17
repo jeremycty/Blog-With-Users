@@ -12,7 +12,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 print("hello")
-
+print("yolo")
 
 #####Initialize Flask########
 app = Flask(__name__)
@@ -38,7 +38,6 @@ gravatar = Gravatar(app,
                     use_ssl=False,
                     base_url=None)
 
-print("Goodbye")
 
 
 #######Setting up flask login############
